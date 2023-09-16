@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario #2</title>
+</head>
+<body>
+    <form style="border: 1;">
+    
+        <label> User id:<input required type="" pattern="[a-Z ]{5,12}"></label><br><br>
+        <label> Password<input required type=""  pattern="[a-Z]{7,12}"></label><br><br>
+        <label> Name:<input required type="" pattern="[a-Z ]"></label><br><br>
+        <label>Address:<input required type="" pattern="[a-Z]"></label><br><br>
+        <label> Country: <select>
+            <option value="">(please select a country)</option>
+            <option value="">Colombia</option>
+            <option value="">Argentina</option>
+            <option value="">Canada</option>
+            <option value="">Mexico</option>
+            <option value="">Marruecos</option>
+        </select><br><br>
+        <label> ZIP Code: <input required type="text" pattern="{0,9}"></label><br><br>
+        <label>Email: <input required type="email"></label><br><br>
+        <label>Sex:</label>
+        <input  name="Sex" type="radio">Male
+        <input  name="Sex" type="radio">Female <br><br>
+        
+        <label>Lenguage</label><br>
+        <input   required name="Lenguage" checked type="checkbox">Englis
+        <input   required name="Lenguage" checked type="checkbox">Non English <br><br>
+        <label>About:</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea></label><br><br>
+        <input type="submit" value="submit"><br>
+    
+ 
+</body>
+</html>
